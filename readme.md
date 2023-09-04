@@ -16,8 +16,8 @@ Here is a [demo](https://francoisromain.github.io/leaflet-markers-canvas/example
 
 ### Install
 
-- Install from npm: `npm i leaflet-markers-canvas`
-- or download [leaflet-markers-canvas.js](https://github.com/francoisromain/leaflet-markers-canvas/blob/master/dist/leaflet-markers-canvas.js)
+- Install from npm: `npm i leaflet-markers-canvas-exact`
+- or download [leaflet-markers-canvas.js](https://github.com/blcardoso/leaflet-markers-canvas/blob/master/dist/leaflet-markers-canvas.js)
 
 ### Exemple
 
