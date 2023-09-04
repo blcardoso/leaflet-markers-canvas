@@ -4,8 +4,8 @@
   (global = global || self, factory(global.L, global.RBush));
 }(this, (function (L, RBush) { 'use strict';
 
-  L = L && Object.prototype.hasOwnProperty.call(L, 'default') ? L['default'] : L;
-  RBush = RBush && Object.prototype.hasOwnProperty.call(RBush, 'default') ? RBush['default'] : RBush;
+  L = L && L.hasOwnProperty('default') ? L['default'] : L;
+  RBush = RBush && RBush.hasOwnProperty('default') ? RBush['default'] : RBush;
 
   var markersCanvas = {
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * *
