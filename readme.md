@@ -85,3 +85,4 @@ This repository works fine with version 1.9.4 of leaflet. If using webpack, just
 ## To-do
 
 - Complete documentation
+- Add tests
