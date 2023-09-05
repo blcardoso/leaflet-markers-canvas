@@ -60,6 +60,10 @@ for (var i = 0; i < 10000; i++) {
 markersCanvas.addMarkers(markers);
 ```
 
+## Info
+This repository works fine with version 1.9.4 of leaflet. If using webpack, just import to your components:
+#### import 'leaflet-markers-canvas-exact'
+
 ## Methods
 
 ### `addTo(map)`
