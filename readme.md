@@ -4,6 +4,12 @@ A Leaflet plugin to render many markers in a canvas instead of the DOM.
 
 This is a complete rewrite of [Leaflet.Canvas-Markers](https://github.com/eJuke/Leaflet.Canvas-Markers) by Eugene Voynov. Thank you for the inspiration.
 
+## Info
+Thanks to [Francois Romain](https://github.com/francoisromain/), original repository owner.
+This repository works fine with version 1.9.4 of leaflet. If using webpack, just import to your components:
+```
+import 'leaflet-markers-canvas-exact'
+```
 ## Demo
 
 Here is a [demo](https://francoisromain.github.io/leaflet-markers-canvas/examples/) of 10000 markers, displayed in one canvas.
@@ -59,10 +65,6 @@ for (var i = 0; i < 10000; i++) {
 
 markersCanvas.addMarkers(markers);
 ```
-
-## Info
-This repository works fine with version 1.9.4 of leaflet. If using webpack, just import to your components:
-#### import 'leaflet-markers-canvas-exact'
 
 ## Methods
 
